@@ -1,0 +1,152 @@
+/* CSS RESET */
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+ body{
+    background: #3c5077;
+ }
+ .login-form, .registration-form {
+    width: 450px;
+    background: #c0c0fd;
+    border-radius: 6px;
+    padding: 0 30px 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222222;
+    position: absolute;
+     }
+
+ .registration-form{
+   margin:300px 0;
+ }
+
+ .login-form h1, .registration-form h1 {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 48px 0;
+ }
+ .login-form p, .registration-form p{
+   font-size: 16px;
+   font-weight: 500;
+   margin: 16px 0 8px;
+ }
+ .login-form .signup, .registration-form .login{
+   font-size: 14px;
+ }
+
+  /* .radio{
+   display: inline-flex;
+   align-items: center;
+   cursor: pointer;
+   margin: 4px 0; 
+ } 
+   */
+
+   label{
+      display: block;
+      margin: 4px;
+   }
+ .input-field {
+    font-size: 20px;
+    width: 100%;
+    padding: 16px 32px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+ }
+
+ .login-form button, .registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 24px 0;
+    padding: 16px 32px;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #061c49;
+    color: #fff;
+ }
+.button-hover:hover{
+   color: #061c49;
+   background-color: transparent;
+   border: 2px solid #061c49;
+}
+ 
+
+/* SUCCESS PAGE STYLE */
+
+.container{
+   width: 100%;
+   height: 100vh;
+   background: #3c5077;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* .btn {
+   padding: 10px 60px;
+   background-color: #fff;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+   font-size: 22px;
+   font-weight: 500;
+   border-radius: 30px;
+} */
+
+.popup {
+   width: 350px;
+   background-color: #fff;
+   border-radius: 6px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   padding: 0 30px 30px;
+   
+}
+
+.popup img{
+   width: 100px; 
+   margin-top: -30px;
+   border-radius: 50%;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+   font-size: 38px;
+   font-weight: 500;
+   margin: 30px 0 10px;
+}
+
+.popup button{
+   width: 100%;
+   margin-top: 50px;
+   padding: 16px 0;
+   background: #6fd649;
+   color: #fff;
+   border: 0;
+   outline: none;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 4px;
+   cursor: pointer;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup button:hover{
+   color: #6fd649;
+   background-color: transparent;
+   border: 2px solid #6fd649;
+}
+ 
+
